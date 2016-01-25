@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B976F1C01C5601FB00BAAB0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B976F1BF1C5601FB00BAAB0B /* AppDelegate.swift */; };
-		B976F1C21C5601FB00BAAB0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B976F1C11C5601FB00BAAB0B /* ViewController.swift */; };
+		B976F1C21C5601FB00BAAB0B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B976F1C11C5601FB00BAAB0B /* SearchViewController.swift */; };
 		B976F1C51C5601FB00BAAB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B976F1C31C5601FB00BAAB0B /* Main.storyboard */; };
 		B976F1C71C5601FB00BAAB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B976F1C61C5601FB00BAAB0B /* Assets.xcassets */; };
 		B976F1CA1C5601FB00BAAB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B976F1C81C5601FB00BAAB0B /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		B976F1BC1C5601FB00BAAB0B /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B976F1BF1C5601FB00BAAB0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B976F1C11C5601FB00BAAB0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B976F1C11C5601FB00BAAB0B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B976F1C41C5601FB00BAAB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B976F1C61C5601FB00BAAB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B976F1C91C5601FB00BAAB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B976F1BF1C5601FB00BAAB0B /* AppDelegate.swift */,
-				B976F1C11C5601FB00BAAB0B /* ViewController.swift */,
+				B976F1C11C5601FB00BAAB0B /* SearchViewController.swift */,
 				B976F1C31C5601FB00BAAB0B /* Main.storyboard */,
 				B976F1C61C5601FB00BAAB0B /* Assets.xcassets */,
 				B976F1C81C5601FB00BAAB0B /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B976F1C21C5601FB00BAAB0B /* ViewController.swift in Sources */,
+				B976F1C21C5601FB00BAAB0B /* SearchViewController.swift in Sources */,
 				B976F1C01C5601FB00BAAB0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +250,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StoreSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CETCME.StoreSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StoreSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CETCME.StoreSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
